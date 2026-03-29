@@ -29,7 +29,6 @@ const Terminal = () => {
     scrollToBottom();
   }, [history, scrollToBottom]);
 
-  // Expose focus function to parent so clicking anywhere focuses input
   useEffect(() => {
     const handleGlobalClick = () => {
       if (!isGlobalTyping) inputRef.current?.focus();
@@ -56,7 +55,7 @@ const Terminal = () => {
 
       if (trimmedInput === 'download') {
         const link = document.createElement('a');
-        link.href = '/Resume.pdf'; // Make sure this is in your public folder
+        link.href = '/Resume.pdf';
         link.download = 'Rakesh_Matta_Resume.pdf';
         document.body.appendChild(link);
         link.click();
