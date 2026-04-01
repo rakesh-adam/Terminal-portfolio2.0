@@ -65,15 +65,15 @@ export const getCommandOutput = (command, args) => {
           <div>
             <p class="text-cyan-400 font-bold">2. 3D Portfolio</p>
             <p class="text-sm">An immersive interactive 3D portfolio experience showcasing my skills using modern web technologies.</p>
-            <p class="text-sm mt-1">Link: <a href="https://rakesh-adam.github.io/3D-portfolio/" target="_blank" class="text-blue-400 underline hover:text-blue-300">https://rakesh-adam.github.io/3D-portfolio/</a></p>
+            <p class="text-sm mt-1">Link: <a href="https://github.com/rakesh-adam/3D-portfolio" target="_blank" class="text-blue-400 underline hover:text-blue-300">https://rakesh-adam.github.io/3D-portfolio/</a></p>
           </div>
         </div>
       `;
     case 'social':
       return `
         <div class="mt-2 space-y-1 text-[#00ff00]">
-          <p><span class="text-yellow-400 font-bold w-24 inline-block">Email:</span> <a href="mailto:rakeshmatta110305@gmail.com" class="text-blue-400 underline hover:text-blue-300">rakeshmatta110305@gmail.com</a></p>
-          <p><span class="text-yellow-400 font-bold w-24 inline-block">Contact:</span> +91 9177820572</p>
+          <p><span class="text-yellow-400 font-bold w-24 inline-block">Email:</span> <a href="mailto:rakeshxxxxx@gmail.com" class="text-blue-400 underline hover:text-blue-300">rakeshxxxxx@gmail.com</a></p>
+          <p><span class="text-yellow-400 font-bold w-24 inline-block">Contact:</span> +91 9177xxxxxx</p>
           <br/>
           <p><span class="text-yellow-400 font-bold w-24 inline-block">GitHub:</span> <a href="https://github.com/rakesh-adam" target="_blank" class="text-blue-400 underline hover:text-blue-300">github.com/rakesh-adam</a></p>
           <p><span class="text-yellow-400 font-bold w-24 inline-block">LinkedIn:</span> <a href="https://www.linkedin.com/in/rakesh-matta-722b11330/" target="_blank" class="text-blue-400 underline hover:text-blue-300">linkedin.com/in/rakesh-matta-722b11330/</a></p>
